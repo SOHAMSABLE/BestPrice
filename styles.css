@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* .bg__image {
+  background-image: url('assets/bgimage.png');
+  height: 700px;
+  filter: blur(3px);
+} */
+
+.bg__image {
+  background-image: url("assets/bgimage.png");
+  height: 710px;
+}
+
+#name_nav {
+  color: #000;
+}

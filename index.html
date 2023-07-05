@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Best Price</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <section style="background-color: #DFF6FF;">
+    <header class="container">
+      <nav class=" navbar navbar-expand-lg p-2">
+        <div class="container-fluid">
+          <a class="navbar-brand" id="name_nav" href="index.html"><i class="fa-solid fa-bag-shopping"></i> <strong>BEST PRICE</strong></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <a href="cart.html" class="mx-4 text-dark"><i class="fa-solid fa-cart-shopping"></i></a>
+            <a class="btn btn-outline-dark" href="login_page.html" target="_self">Login</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+  </section>
+
+  <section>
+    <div class="row bg__image">
+      <div class="col"> </div>
+      <div class="col-8">
+        <div class="container input-group flex-nowrap mt-3">
+          <div class="input-group-prepend">
+            <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#Modal">
+              <i class="fa-solid fa-bars m-1"></i>
+            </button>
+            <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title text-secondary" id="ModalLabel">Welcome Sir/Madam!!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="row">
+                      <div class="col"> </div>
+                      <div class="col-4 mx-4 px-4">
+                        <table class="text-center">
+                          <tr class="mb-2">
+                            <td><a href="settings.html">Settings</a></td>
+                          </tr>
+                          <tr class="mb-2">
+                            <td><a href="your_account.html">Your Account</a></td>
+                          </tr>
+                          <tr class="mb-2">
+                            <td><a href="customer_care.html">Customer Care</a></td>
+                          </tr>
+                          <tr class="mb-2">
+                            <td><a href="about_us.html">About us</a></td>
+                          </tr>
+                          <tr class="mb-2">
+                            <td> <a href="privacy.html">Privacy Policy</a> </td>
+                          </tr>
+                        </table>
+                      </div>
+                      <div class="col"> </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <input type="text" class="form-control" placeholder="Search Here">
+
+          <div class="input-group-prepend">
+            <button type="button" class="btn btn-outline-dark" id="addon-wrapping"><i class="fa-solid fa-magnifying-glass m-1"></i> SEARCH</button>
+          </div>
+        </div>
+      </div>
+      <div class="col"> </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h6 class="m-3 fw-normal">Shop By</h6>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="row border m-2 p-3 text-center">
+        <div class="col">
+          <a href="#discount">
+            <h6>Discount</h6>
+          </a>
+        </div>
+        <div class="col">
+          <a href="#category">
+            <h6>Category</h6>
+          </a>
+        </div>
+        <div class="col">
+          <a href="#just_launch">
+            <h6>Just Launch</h6>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="mt-4">
+      <div class="row" id="discount">
+        <h3 class="fst-italic">Deals with Best Price!!</h3>
+        <div class=" col">
+          <div class="card mb-3">
+            <img src="assets/bestdeal_01.jpg" class="card-img-top" alt="deal1">
+            <div class="card-body">
+              <h5 class="card-title">Iphone 14</h5>
+              <p class="card-text">40% OFF</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-3">
+            <img src="assets/bestdeal_02.jpg" class="card-img-top" alt="deal2">
+            <div class="card-body">
+              <h5 class="card-title">Milton Bottle</h5>
+              <p class="card-text">50% OFF</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-3">
+            <img src="assets/bestdeal_03.jpg" class="card-img-top" alt="deal3">
+            <div class="card-body">
+              <h5 class="card-title">LG TV</h5>
+              <p class="card-text">66% OFF</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-4">
+      <h3 class="fst-bold" id="category">Category</h3>
+      <div class="row row-cols-3 text-center my-2">
+        <div class="col" id="mobiles">
+          <a href="cat_mobile.html">
+            <div class="card mb-3">
+              <img src="assets/mobiles.jpg" class="card-img-top" alt="mobiles and tablets">
+              <div class="card-body">
+                <h5 class="card-title">Mobiles & Tablets</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col" id="electronics">
+          <a href="cat_elctronics.html">
+            <div class="card mb-3">
+              <img src="assets/electronics.jpg" class="card-img-top" alt="electronics">
+              <div class="card-body">
+                <h5 class="card-title">Electronic Appliances</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col" id="laptops">
+          <a href="cat_laptops.html">
+            <div class="card mb-3">
+              <img src="assets/laptops.jpg" height="100%" class="card-img-top" alt="laptops">
+              <div class="card-body">
+                <h5 class="card-title">Laptops</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col" id="clothings">
+          <a href="#Clothing">
+            <div class="card mb-3">
+              <img src="assets/clothings.jpg" class="card-img-top" alt="clothings">
+              <div class="card-body">
+                <h5 class="card-title">Clothings</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col" id="footwears">
+          <a href="#footwear">
+            <div class="card mb-3">
+              <img src="assets/footwears.jpg" class="card-img-top" alt="footwears">
+              <div class="card-body">
+                <h5 class="card-title">Footwears</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col" id="watches-1">
+          <a href="#watches">
+            <div class="card mb-3">
+              <img src="assets/watches.jpg" height="100%" class="card-img-top" alt="watches">
+              <div class="card-body">
+                <h5 class="card-title">Watches</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="my-4">
+      <h3 class="fst-bold" id="just_launch">Just Launch</h3>
+      <div class="row">
+        <div class="col">
+          <div class="card bg-dark text-white">
+            <img src="assets/justlaunch_01.jpg" class="card-img" alt="just_launch01">
+            <div class="card-img-overlay">
+              <h5 class="card-title">New Mobiles</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card bg-dark text-white">
+            <img src="assets/justlaunch_02.jpg" class="card-img" alt="just_launch02">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Accessories</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card bg-dark text-white">
+            <img src="assets/justlaunch_03.jpg" class="card-img" alt="just_launch03">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Beauty Products and Perfumes</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer mt-auto py-3 mt-5" style="background-color: #DFF6FF;">
+    <div class="container">
+      <div class="row">
+        <div class="col-6" style="background-image: url('assets/foot_img.png');"> </div>
+        <div class="col-6 my-5">
+          <h4 class="mt-5" id="name_nav">Download BEST PRICE APP</h4>
+          <p class="text fs-5 mt-3" id="name_nav">Download BEST PRICE APP to experience the best ever deals!!</p>
+          <a class="btn btn-lg btn-dark" href="#download">Download BEST PRICE APP <i class="ml-2 pt-1 fas fa-arrow-down"></i></a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center">
+          <div class="col-sm-8 offset-lx-1 offset-sm-0 mt-5">
+            <p id="name_nav"><strong>SUBSCRIBE TO OUR NEWSLETTER</strong></p>
+            <p id="name_nav">Get monthly updates and opportunities from the Best Price:</p>
+            <p><a class="btn btn-small btn-dark mt-2" role="button" aria-pressed="true" href="sign_up.html">Sign up</a></p>
+          </div>
+          <div class="col-sm-2 mt-5">
+            <div class="row">
+              <h4 class="col"><a class="px-3" id="name_nav" href="#discourse"><i class="fab fa-discourse"></i></a></h4>
+              <h4 class="col"><a class=" px-3" id="name_nav" href="#facebook"><i class="fab fa-facebook"></i></a></h4>
+              <h4 class="col"><a class="mastodon px-3" id="name_nav" href="#mastodon" rel="me"><i class="fab fa-mastodon"></i></a></h4>
+            </div>
+            <div class="row">
+              <h4 class="col"><a class="instagram px-3" id="name_nav" href="#instagram"><i class="fab fa-instagram"></i></a></h4>
+              <h4 class="col"><a class="twitter px-3" id="name_nav" href="#twitter"><i class="fab fa-twitter"></i></a></h4>
+              <h4 class="col"><a class="linkedin px-3" id="name_nav" href="#linkedin"><i class="fab fa-linkedin"></i></a></h4>
+            </div>
+            <div class="row">
+              <h4 class="col"><a class="github px-3" id="name_nav" href="#github"><i class="fab fa-github"></i></a></h4>
+              <h4 class="col"><a class="telegram px-3" id="name_nav" href="#telegram"><i class="fab fa-telegram"></i></a></h4>
+              <h4 class="col"></h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row text-center">
+        <p class="my-1" id="name_nav">Trademark, copyright notices, and rules for use by third parties can be found in our
+          <a href="faq.html" class="text-primary text-dark"><u>FAQ</u></a>.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
